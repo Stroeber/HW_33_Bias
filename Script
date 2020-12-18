@@ -1,44 +1,49 @@
 Bias in Neuroinformatics
 
 Prolog: greeting
-Intro:
-    - bias in everyday life (& psychology ...) ( list of cog biases! -> scroll though!)
- - In real life we ***estimate*** a lot, the footpath to goal, relations and computations. 
-       - In neuroinformatics it's the same. --> We use estimators in many problems.  
- - So the bias is to assess how good an estimator is:
 
+
+Intro:
 What is a Bias?   
-     the Difference between the real value and our estimation (which we made up) is the bias.
+
+    - bias are everywhere! in our daily life (stereotypes, psychology, theories in science)          
+            - ( list of cog biases! -> scroll though!)
+            - In real life we ***estimate*** a lot, the footpath to goal, relations and computations. 
+            - And for our human(man)-made computers it's the same.
+
+    - But the main problem with biases comes also our best solution. Because they provide us a prediction for the future. (An Estimation)
+            - In the end they doesn't always end up right. (sad emotion)
+            
+    - So speaking in therms of a neuroinformatical sense, we can find out whether our Estimations are close to the target or far away.
+            - And this number can be calculated as a good value --> The bias.
+                (1 it also gives us a startung point of how to make our estimate better) 
+                
     
-1  it also gives us a startung point of how to make our estimate better 
-    
-    - The Dart example:
+    - The Dart example/ found a more fitting on, Topfschlagen? (Wärmer, Wärmer, Kälter, Ganz kalt...):
                   - Applied on the example we might think of throwing darts onto a dartboard. 
                   (- We might estimate the distance to the bulls eye and how much force is needed to throw the arrow onto the target.) 
                   And throw a few times.
                   - Unluckerly we miss our goal and hit the dartboard a little bit to much on the right side every time.
                   - The calculated bias would be the difference from the position we threw and the actual goal - The bulls eye.
 
-1   we incorrporate the knowledge of being drawn to one side to make it better
+1   we incorporate the knowledge of being drawn to one side to make it better
 
 
-    - These are (two) examples of biases.
+Give reasons for bias and discuss the behaviour of the bias for large number of data samples?
     
-    
-Give reasons for bias and discuss the behaviour of the bias for large number of data samples:
-    
-     - Another example The Population of crane (Kraniche) big beautiful birds:
+     - Another example The Population:
                   - When we would larger the sample size from n=10,100,999 Population size = 1000
                   - The bias becomes more and more irrevelant / less and less pronounced. b(estimation)= estimation - real value
                   - The bias would conjugate to 0. (is that so? i just don't know)
                               
                   
 Epilog: 
-
-    - How revelant is the information. For what do we use this knowledge?
-    - Maybe we notice that by simplifying / abstracting / estimate (sampling, using model) there could appear biases. 
-    But computations are more quickly/ help us out when we don't have access to full knowledge,
-    help us abstracting & comparing.
+    
+    - What can we do now after understanding what the bias means?
+    - Maybe we can notice that the whole world suraround us is full of theories and system that need to predict things for the future.
+    - That complex systems and tasks like the wether, earthquakes or analyze an election needs to be simplified (by sampling or using model) 
+    - to be computable. help us out when we don't have access to full knowledge
+    - And there will always comes with biases. (like Double Edged Blade)
     - ...
 
 
