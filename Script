@@ -19,25 +19,22 @@ What is a Bias?
                 (1 it also gives us a startung point of how to make our estimate better) 
                 
     
-    - The Dart example/ found a more fitting on, Topfschlagen? (Wärmer, Wärmer, Kälter, Ganz kalt...):
+    - The Dart example/ found a more fitting on:
                   - Applied on the example we might think of throwing darts onto a dartboard. 
                   (- We might estimate the distance to the bulls eye and how much force is needed to throw the arrow onto the target.) 
                   And throw a few times.
                   - Unluckerly we miss our goal and hit the dartboard a little bit to much on the right side every time.
                   - The calculated bias would be the difference from the position we threw and the actual goal - The bulls eye.
 
-1   we incorporate the knowledge of being drawn to one side to make it better
 
-
-Give reasons for bias and discuss the behaviour of the bias for large number of data samples?
+Give reasons for bias and discuss the behaviour of the bias for large number of data samples? (Stevo-san's python project)
     
      - Another example The Population:
                   - When we would larger the sample size from n=10,100,999 Population size = 1000
                   - The bias becomes more and more irrevelant / less and less pronounced. b(estimation)= estimation - real value
-                  - The bias would conjugate to 0. (is that so? i just don't know)
                               
                   
-Epilog: 
+Ending: 
     
     - What can we do now after understanding what the bias means?
     - Maybe we can notice that the whole world suraround us is full of theories and system that need to predict things for the future.
