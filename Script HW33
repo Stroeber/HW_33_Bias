@@ -1,0 +1,106 @@
+OUR SPOKEN LINES
+
+**comentary - directions - qs **
+___ new visual //→ ___________________________________________________ section
+
+___________________________________________________
+ HELLO and WELCOME . In this explain video for NI we, 
+that are … ***
+ ,will explain to you what a bias is. More specifically what the bias of an estimator is.
+So today we are going to talk about a topic, which is familiar to everyone but we may not have seen it in the context of neuroinformatics. It is the bias, more specific, the bias of an estimator. Just imagine that not only humans can be biased towards something, also the machines can do the same as well. 
+
+ explain with examples from real life as well as a common NI eg, which you probably know.
+we will talk about why bias(es) arise and how the size of data samples impacts the bias. 
+
+______________________________________________________
+But what exactly is a bias and how can we understand them in general?
+
+______________________________________________________
+We can find them surrounding us all the time. For example in stereotypes, people are to some degree biased toward each other, with things that are in reality not true.
+
+______________________________________________________
+Look at the sheer endless list of cognitive biases that the human can have.
+
+______________________________________________________
+
+And the humankind also tries to make sense of everything around him, not only of humans also of nature.
+And because the computers are just a product of human craft, they can also be biasing. And that’s why it’s important to understand where and how?
+
+______________________________________________________
+Sad emotions:
+And just because not all our thoughts and theories are ending up as accurate as we want them
+So not all our thoughts and theories are ending up as accurate as we want them. And so our machines:
+In neuroinformatics we are talking about a bias. 
+ 
+:+ formulae
+______________________________________________________
+
+
+Dart Example:
+Plaain Blue Screen
+ok, before we get into the application of biases in NI, lets foster our understanding of biases by looking at a visual eg : throwing darts!
+dart screen
+Look, our arrow hits the middle(bullseye/center?). This is what we want, JEY, Check!. The middle is our desired goal aca our correct, real world value. 
+when our arrow (which is our estimation) hits the middle we can be happy because our estimation is as accurate as possible.
+formulae
+NO BIAS. Our BIAS IS ZERO. noch hinschreiben
+---
+changing arrow
+But what if we do not have a perfect aim? We might have been practicing and reached our best aim jet possible, but still, our scores are always slightly off to the left in a surprisingly unvariant degree, even though we aim at the center.
+
+translated to the NI side of things this translates into: our true value is at the center but we miss it with our arrow - i mean, our estimation. this difference is our bias. it is  NOT ZERO.
+---
+so far so good, but what to do about it? Why is it good to know about it? What is it useful for?
+… we can use the bias in a simple trick to get to the center point!
+Green Dot
+ when we know we have a steady leftside bias -ha I said it- / hinge.
+we adjust our estimation! We CORRECT it. *** CORRECTION***
+when we normally would aim at the center and land leftside, we take what is missing to the center and add it up… we are now aiming NOT AT THE center, BUT too the left, adding what is missing in our aim from before.
+
+that way, we will get our estimation to be as near to the true value as possible. 
+(Note, that even though we can optimize your estimation this way, it might still differ slightly from our true real world value.)
+…
+We have already talked about this example quite a while now and gave you some intuition, equipped with this we can look at how that helps us in NI.
+
+(You should take away that if you optimally estimate the true value, you are bias free, 
+that you it is a bias when there is a systematic flaw in your estimation and
+that if you have a bias you can use it to correct your estimation.)
+
+**… the floor is open for you, Steffen. MIc-drop … unless you want to talk it over together..*** LOL xD
+
+
+
+
+
+
+
+______________________________________________________________
+***
+ ROTER FADEN?: ** add it to written stuff?**
+upper formulae real goal with only true and complete stuff,
+lower: what we calc with, to get the best fitting result
+mean -same
+var- not 
+->it UNDERESTIMATES
+then: WHY does it do that?
+samples near middle of distr. are by def more likely -> longer dist to mean don’t happen so much
+everything gets squared and squares grow exponentially leading to magnify the lack of large distances
+
+
+mean is already slightly off
+
+ -> SEE All THis  NOW! (in python code) 
+
+-> SEE HERE that the bias gets smaller for large data samples
+______________________________________________________
+
+Summary:
+in general NI
+(You should take away that if you optimally estimate the true value, you are bias free, 
+that you it is a bias when there is a systematic flaw in your estimation and
+that if you have a bias you can use it to correct your estimation.)
+to mean and variance:
+mean- unbiased (no systematic flaw) but not necessarily perfectly accurate 
+var - biased because dependent on not perfect mean
+** at this point: is it too late to ask whether they are really just refering to this application of why this bias is there or do they (also) want to know general facts?**
+larger sample sizes increases the results accuracy, the bias gets less pronounced.
